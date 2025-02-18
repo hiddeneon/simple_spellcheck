@@ -1,0 +1,15 @@
+{
+    "name": "simple_spellcheck",
+    "version": "1.0.0",
+    "description": "A simple spellcheck application",
+    "main": "index.js",
+    "dependencies": {
+      "typo-js": "^1.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC"
+  }

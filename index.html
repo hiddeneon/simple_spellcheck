@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Простой проверщик орфографии</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spellcheck App</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Простой проверщик орфографии</h1>
-        <input type="text" id="wordInput" placeholder="Введите слово">
-        <button id="checkButton">Проверить орфографию</button>
-        <p id="suggestion"></p>
-    </div>
-    
-    <script src="app.js"></script>
+  <div class="container">
+    <textarea id="inputText" placeholder="Type your sentences here..."></textarea>
+    <button id="checkButton">Check Spelling</button>
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
